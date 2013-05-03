@@ -1,0 +1,11 @@
+h1. Description
+
+Simple java client for NK UTSuite API using Java API for JSON Processing RI (JSR 353, https://jsonp.java.net/, April 2013 build) and Gradle 
+
+h1. Build
+
+gradle build
+
+h1. Run
+
+java -cp build/classes/main:libs/javax.json-1.0.jar UTSuiteClient
