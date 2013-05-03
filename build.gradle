@@ -9,3 +9,10 @@ repositories{
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
 }
+
+task(run, dependsOn: 'classes', type: JavaExec) {
+	main = 'UTSuiteClient'
+	classpath = sourceSets.main.runtimeClasspath 
+}
+
+defaultTasks 'build'
