@@ -8,4 +8,5 @@ gradle build
 
 h1. Run
 
-java -cp build/classes/main:libs/javax.json-1.0.jar UTSuiteClient
+gradle run
+(or "java -cp build/classes/main:libs/javax.json-1.0.jar UTSuiteClient")
